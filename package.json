@@ -1,0 +1,27 @@
+{
+  "name": "reagent-cli",
+  "version": "1.0.0",
+  "description": "CLI for Reagent",
+  "main": "src/index.ts",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "scripts": {
+    "exec": "ts-node ./src/index.ts",
+    "build": "tsc --project ./tsconfig.json"
+  },
+  "bin": {
+    "reagent": "./dist/index.js"
+  },
+  "dependencies": {
+    "boxen": "^6.2.1",
+    "chalk": "^4.1.2",
+    "yargs": "^17.2.1"
+  },
+  "devDependencies": {
+    "@types/node": "^16.11.0",
+    "@types/yargs": "^17.0.4",
+    "ts-node": "^10.3.0",
+    "typescript": "^4.4.4"
+  }
+}
